@@ -239,6 +239,10 @@ nav>ul {
     font-weight: 800;
 }
 
+.choosing-description{
+    width: 50%;
+}
+
 .card-description {
     color: #5A5A5D;
     font-size: 1rem;
@@ -411,6 +415,10 @@ footer {
     /* card styles */
     .cards-container {
         flex-direction: column;
+    }
+
+    .choosing-description{
+        width: auto;
     }
 
     .cards {
