@@ -123,10 +123,15 @@ nav>ul {
 
 /* popular tours styles */
 .popular {
+    max-width: 1500px;
+    height: 7000px;
+    margin: 0px auto;
     display: flex;
-    justify-content: space-between;
     gap: 50px;
 }
+
+
+
 
 /* destination styles */
 
@@ -160,14 +165,15 @@ nav>ul {
     gap: 25px;
     margin-bottom: 25px;
 }
-.random{
+
+.random {
     position: relative;
 }
+
 .overlay {
     position: absolute;
     top: calc(50% - 4.5rem);
-    left: calc(45% - 4.5rem
-    );
+    left: calc(45% - 4.5rem);
     color: #FFF;
     font-size: 3rem;
     font-weight: 800;
