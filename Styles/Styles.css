@@ -185,6 +185,61 @@ nav>ul {
     text-align: center;
 }
 
+/* Card styles */
+
+.why-choose-us{
+    margin: 0 auto;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.cards {
+    width: 50%;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+
+.one {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.two {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.third {
+    margin: 0 auto;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
 /* id styles */
 #form-button {
     width: 100%;
@@ -268,5 +323,14 @@ nav>ul {
         top: calc(50% - 4.5rem);
         left: calc(50% - 4.5rem);
         font-size: 1.5rem;
+    }
+
+    /* card styles */
+    .cards-container{
+        flex-direction: column;
+    }
+
+    .cards{
+        width: auto;
     }
 }
